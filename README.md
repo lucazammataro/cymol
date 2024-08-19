@@ -42,6 +42,10 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 Special thanks to the foundational principles set by Dennis C. Rapaport's book, which has been instrumental in guiding this project's development.
 
+## References
+
+The Art of Molecular Dynamics Simulation, by Dennis C. Rapaport, published by the Cambridge University Press.
+The Lennard-Jones potential Why the art of molecular dynamics is so fascinating, and why I got so emotionally overwhelmed, Luca Zammataro published on https://towardsdatascience.com/the-lennard-jones-potential-35b2bae9446c
 ---
 
 Join us in advancing the field of molecular dynamics through innovative programming and collaborative development!
