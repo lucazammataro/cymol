@@ -44,9 +44,9 @@ Special thanks to the foundational principles set by Dennis C. Rapaport's book, 
 
 ## References
 
-The Art of Molecular Dynamics Simulation, by Dennis C. Rapaport, published by the Cambridge University Press.
+1. Rapaport DC. The Art of Molecular Dynamics Simulation. 2nd ed. Cambridge University Press; 2004.
 
-The Lennard-Jones potential Why the art of molecular dynamics is so fascinating, and why I got so emotionally overwhelmed, Luca Zammataro published on https://towardsdatascience.com/the-lennard-jones-potential-35b2bae9446c
+2. Zammataro L. The Lennard-Jones potential Why the art of molecular dynamics is so fascinating, and why I got so emotionally overwhelmed, (https://towardsdatascience.com/the-lennard-jones-potential-35b2bae9446c)
 
 ---
 
