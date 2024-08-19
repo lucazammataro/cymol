@@ -1,4 +1,4 @@
-<img src="MEDIGUI_ConvNet_Logo.png" alt="logo" style="display:block; margin:auto;">
+<img src="/images/cymol_main.JPG" alt="logo" style="display:block; margin:auto;">
 # cymol
 Cymol: A Research and Educational Project on Classical Molecular Dynamics
 
