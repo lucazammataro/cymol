@@ -1,6 +1,6 @@
 '''
 Module: cymol_LJP_02_1_1
-Title: Cymol Lennard Jones Potential
+Title: Cymol Lennard Jones Potential (2D Soft-disk fluid algorithm)
 Author: Luca Zammataro, Copyright (c) 2024
 Compile: python setup.py build_ext --inplace
 Reference: https://towardsdatascience.com/the-lennard-jones-potential-35b2bae9446c
