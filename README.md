@@ -10,6 +10,8 @@ Cymol is an educational and research-oriented project designed to explore classi
 
 ## Overview
 
+![Demo](images/demo.gif)
+
 Cymol is a dynamic educational and research project aimed at exploring classical molecular dynamics through modern programming paradigms. This initiative is inspired by the seminal work "The Art of Molecular Dynamics" by Dennis C. Rapaport, with several examples initially implemented in C.
 
 ## Project Goals
