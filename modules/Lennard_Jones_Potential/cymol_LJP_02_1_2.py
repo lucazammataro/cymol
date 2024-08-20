@@ -1,7 +1,7 @@
 '''
 Title: Cymol Lennard Jones Potential 2D version
 Author: Luca Zammataro, Copyright (c) 2024
-code: main function
+Code: main function
 Reference: https://towardsdatascience.com/the-lennard-jones-potential-35b2bae9446c
 '''
 
