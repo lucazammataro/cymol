@@ -57,18 +57,15 @@ Special thanks to the foundational principles set by Dennis C. Rapaport's book, 
 
 3. Zammataro L. The Lennard-Jones potential Why the art of molecular dynamics is so fascinating, and why I got so emotionally overwhelmed, (https://towardsdatascience.com/the-lennard-jones-potential-35b2bae9446c)
 
----
 
 Join us in advancing the field of molecular dynamics through innovative programming and collaborative development!
 
+---
 
-
-## Examples: 2D and 3D simulation of the Lennard-Jones Potential
+## Examples: 2D and 3D Simulation of the Lennard-Jones Potential
 
 Compile and run two and three-dimensional simulations of the Lennard-Jones Potential (source codes available in the "modules" directory), a fundamental model used to describe interactions between particles in physics and chemistry. This simulations provide a dynamic and detailed visualization of how molecules interact through attractive and repulsive forces at varying distances.
 Watch the video to explore how the Lennard-Jones Potential manifests in a 3D environment, with particles attracting and repelling each other, illustrating the dynamics that drive molecular behavior.
-
-
 
 ### Detailed Description of Functions in 2D and 3D Lennard-Jones Potential Simulations
 
