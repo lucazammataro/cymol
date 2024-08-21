@@ -44,6 +44,24 @@ Watch the video to explore how the Lennard-Jones Potential manifests in a 3D env
 
 ### Detailed Description of Functions in 2D and 3D Lennard-Jones Potential Simulations
 
+## Functions Overview: 2D and 3D Lennard-Jones Potential Simulations
+
+This project simulates the Lennard-Jones Potential in both 2D and 3D using Newtonian mechanics. Below is a detailed overview of the key functions utilized in these simulations:
+
+### Force Calculation Function
+
+This function calculates the forces acting between particles using the Lennard-Jones potential:
+
+![Equation](https://latex.codecogs.com/png.latex?V%28r%29%3D4%5Cepsilon%5Cleft%5B%5Cleft%28%5Cfrac%7B%5Csigma%7D%7Br%7D%5Cright%29%5E%7B12%7D-%5Cleft%28%5Cfrac%7B%5Csigma%7D%7Br%7D%5Cright%29%5E6%5Cright%5D)
+
+Forces are derived from the potential as:
+
+![Equation](https://latex.codecogs.com/png.latex?F%28r%29%3D-%5Cnabla%20V%28r%29)
+
+The function iterates over all particle pairs, computes the distance \(r\), and updates each particle's force vector accordingly.
+
+
+
 The simulations of the Lennard-Jones Potential, both in 2D and 3D, are built upon the principles of classical mechanics and use Newton's equations of motion to model the interactions between particles. Below is a detailed explanation of the primary functions used in these simulations:
 
 1. **Initialization Functions (`init_particles`, `init_simulation`)**:
