@@ -64,10 +64,56 @@ Join us in advancing the field of molecular dynamics through innovative programm
 
 ## Practical Examples with Cymol: 2D and 3D Simulation of the Lennard-Jones Potential
 
+
+### Introduction
+
+This guide provides detailed steps on how to compile and run the 2D and 3D simulations of the Lennard-Jones Potential using Cymol. The project consists of a Cython file (`.pyx`), a setup script, and a Python script that includes the main function to execute the simulation.
+
+### Requirements
+
+Before you begin, ensure you have Python installed along with the following packages:
+- Cython
+- NumPy
+- A C compiler (like GCC for Linux/Mac or MSVC for Windows)
+
+### Compilation Steps
+
+1. **Compile the Cython Code**:
+   - Navigate to the directory containing your files.
+   - Run the setup script to compile the `.pyx` file into a C extension. Use the following command:
+     ```bash
+     python setup_cymol_3DLJP_02_1_3.py build_ext --inplace
+     ```
+   - This command will generate a `.so` file (on Linux/Mac) or a `.pyd` file (on Windows) in the same directory, which is the compiled module that can be imported in Python.
+
+2. **Verify Compilation**:
+   - Ensure that the compilation has produced the necessary binary file without errors.
+
+### Running the Simulation
+
+1. **Execute the Simulation**:
+   - Open the Python script containing the main function.
+   - Modify the parameters in the `run_simulation` function call if necessary (e.g., adjusting the number of particles, time steps, etc.).
+   - Execute the script by running:
+     ```bash
+     python cymol_3DLJP_02_1_3.py
+     ```
+   - This script will import the compiled module and start the simulation using the parameters specified.
+
+### Expected Results
+
+- Upon execution, the script will simulate the interactions of particles under the Lennard-Jones potential in either 2D or 3D, depending on the configuration.
+- Outputs such as particle trajectories, energy calculations, and potentially visualization (if implemented) will be displayed or saved according to the script's functionality.
+
+### Troubleshooting
+
+- If you encounter errors during compilation, ensure that your environment is set up correctly with all necessary dependencies installed.
+- For runtime errors, check the parameter values and ensure that the `.pyx` module is correctly compiled and accessible.
+
 Compile and run two and three-dimensional simulations of the Lennard-Jones Potential (source codes available in the "modules" directory), a fundamental model used to describe interactions between particles in physics and chemistry. This simulations provide a dynamic and detailed visualization of how molecules interact through attractive and repulsive forces at varying distances.
 Watch the video to explore how the Lennard-Jones Potential manifests in a 3D environment, with particles attracting and repelling each other, illustrating the dynamics that drive molecular behavior.
 
-### Detailed Description of Functions in 2D and 3D Lennard-Jones Potential Simulations
+### Detailed Description of Functions in 2D and 3D Lennard-Jones Potential Simulations: Underlying Theoretical Foundations
 
 The simulations of the Lennard-Jones Potential, both in 2D and 3D, are built upon the principles of classical mechanics and use Newton's equations of motion to model the interactions between particles. Below is a detailed explanation of the primary functions used in these simulations:
 
