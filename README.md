@@ -113,6 +113,8 @@ Before you begin, ensure you have Python installed along with the following pack
 Compile and run two and three-dimensional simulations of the Lennard-Jones Potential (source codes available in the "modules" directory), a fundamental model used to describe interactions between particles in physics and chemistry. This simulations provide a dynamic and detailed visualization of how molecules interact through attractive and repulsive forces at varying distances.
 Watch the video to explore how the Lennard-Jones Potential manifests in a 3D environment, with particles attracting and repelling each other, illustrating the dynamics that drive molecular behavior.
 
+---
+
 ### Detailed Description of Functions in 2D and 3D Lennard-Jones Potential Simulations: Underlying Theoretical Foundations
 
 The simulations of the Lennard-Jones Potential, both in 2D and 3D, are built upon the principles of classical mechanics and use Newton's equations of motion to model the interactions between particles. Below is a detailed explanation of the primary functions used in these simulations:
