@@ -32,21 +32,6 @@ To get involved with Cymol or try out the simulations:
 2. Ensure you have Python and Cython installed.
 3. Follow the setup instructions in our documentation to start running your own simulations.
 
-
-## Contribution
-
-Contributions are welcome! Whether you're looking to fix bugs, enhance the functionality, or propose new features, please feel free to fork this repository, make changes, and submit pull requests.
-
-## License
-
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-Special thanks to the foundational principles set by Dennis C. Rapaport's book, which has been instrumental in guiding this project's development.
-
-Join us in advancing the field of molecular dynamics through innovative programming and collaborative development!
-
 ---
 
 ## Installation Guide for Cymol
@@ -292,6 +277,20 @@ The simulations of the Lennard-Jones Potential, both in 2D and 3D, are built upo
 These functions, when combined, create a comprehensive simulation of particle interactions under the Lennard-Jones potential, allowing for detailed studies of molecular dynamics in both two and three dimensions.
 
 
+
+## Contribution
+
+Contributions are welcome! Whether you're looking to fix bugs, enhance the functionality, or propose new features, please feel free to fork this repository, make changes, and submit pull requests.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+Special thanks to the foundational principles set by Dennis C. Rapaport's book, which has been instrumental in guiding this project's development.
+
+Join us in advancing the field of molecular dynamics through innovative programming and collaborative development!
 
 
 ---
