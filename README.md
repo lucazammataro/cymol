@@ -18,10 +18,6 @@ Cymol is an ongoing project, still under development, with the goal of providing
 
 The primary objective of Cymol is not just to reimplement existing algorithms, but to enhance them using Cython, demonstrating the power of this language in achieving highly efficient, stable, and fast computational solutions. This project serves as a practical guide to understanding the intricacies of molecular dynamics simulations and the optimization capabilities of Cython.
 
-<p align="center">
-  <img src="images/LJP.gif" alt="Demo">
-</p>
-
 ## Why Cython?
 
 Cython offers a unique blend of simplicity and power, providing the ease of Python with the capability to achieve performance close to C languages. Through Cymol, we aim to showcase:
@@ -121,6 +117,9 @@ Adjust parameters within the `main.py` as needed to customize the simulation con
 
 ## Practical Examples with Cymol: 2D and 3D Simulation of the Lennard-Jones Potential
 
+<p align="center">
+  <img src="images/LJP.gif" alt="Demo">
+</p>
 
 ### Introduction
 
