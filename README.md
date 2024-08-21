@@ -60,7 +60,9 @@ Special thanks to the foundational principles set by Dennis C. Rapaport's book, 
 
 1. Rapaport DC. The Art of Molecular Dynamics Simulation. 2nd ed. Cambridge University Press; 2004.
 
-2. Zammataro L. The Lennard-Jones potential Why the art of molecular dynamics is so fascinating, and why I got so emotionally overwhelmed, (https://towardsdatascience.com/the-lennard-jones-potential-35b2bae9446c)
+2. Smith KW. Cython: A Guide for Python Programmers 1st Edition, O'Really ISBN-13: 978-1491901557
+
+3. Zammataro L. The Lennard-Jones potential Why the art of molecular dynamics is so fascinating, and why I got so emotionally overwhelmed, (https://towardsdatascience.com/the-lennard-jones-potential-35b2bae9446c)
 
 ---
 
