@@ -1,5 +1,3 @@
-<img src="/images/cymol_main.JPG" alt="logo" style="display:block; margin:auto;">
-
 <p align="center">
   <img src="images/3DLJP.gif" alt="Demo">
 </p>
@@ -12,16 +10,16 @@ Developed by Luca Zammataro, Copyright (C) 2024
 
 ## Overview
 
-<p align="center">
-  <img src="images/LJP.gif" alt="Demo">
-</p>
-
 
 Cymol is an educational and research-oriented project designed to explore classical molecular dynamics using modern programming paradigms. Inspired by Dennis C. Rapaport's seminal textbook, "The Art of Molecular Dynamics," this project implements some examples from the book. Named "Cymol" to reflect its use of Cython, this project aims to demonstrate how Cython can produce efficient, stable, and surprisingly fast code. Join us as we step-by-step uncover the impressive capabilities of Cython in molecular dynamics simulations.
 
 ## Project Goals
 
 The primary objective of Cymol is not just to reimplement existing algorithms, but to enhance them using Cython, demonstrating the power of this language in achieving highly efficient, stable, and fast computational solutions. This project serves as a practical guide to understanding the intricacies of molecular dynamics simulations and the optimization capabilities of Cython.
+
+<p align="center">
+  <img src="images/LJP.gif" alt="Demo">
+</p>
 
 ## Why Cython?
 
