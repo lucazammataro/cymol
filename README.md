@@ -42,7 +42,9 @@ To get involved with Cymol or try out the simulations:
 Compile and run two and three-dimensional simulations of the Lennard-Jones Potential (source codes available in the "modules" directory), a fundamental model used to describe interactions between particles in physics and chemistry. This simulations provide a dynamic and detailed visualization of how molecules interact through attractive and repulsive forces at varying distances.
 Watch the video to explore how the Lennard-Jones Potential manifests in a 3D environment, with particles attracting and repelling each other, illustrating the dynamics that drive molecular behavior.
 
-[Watch the video on YouTube](https://youtu.be/Y6BNPL-ZChw?si=aWSa4FRqT2bbJ3EF)
+[Watch the 2D Lennard-Jones Simulation on YouTube](https://youtu.be/mai3VEOZH0c)
+
+[Watch the 3D Lennard-Jones Simulation on YouTube](https://youtu.be/Y6BNPL-ZChw?si=aWSa4FRqT2bbJ3EF)
 
 ## Contribution
 
