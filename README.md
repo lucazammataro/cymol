@@ -37,6 +37,32 @@ To get involved with Cymol or try out the simulations:
 3. Follow the setup instructions in our documentation to start running your own simulations.
 
 
+## Contribution
+
+Contributions are welcome! Whether you're looking to fix bugs, enhance the functionality, or propose new features, please feel free to fork this repository, make changes, and submit pull requests.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+Special thanks to the foundational principles set by Dennis C. Rapaport's book, which has been instrumental in guiding this project's development.
+
+## References
+
+1. Rapaport DC. The Art of Molecular Dynamics Simulation. 2nd ed. Cambridge University Press; 2004.
+
+2. Smith KW. Cython: A Guide for Python Programmers 1st Edition, O'Really ISBN-13: 978-1491901557
+
+3. Zammataro L. The Lennard-Jones potential Why the art of molecular dynamics is so fascinating, and why I got so emotionally overwhelmed, (https://towardsdatascience.com/the-lennard-jones-potential-35b2bae9446c)
+
+---
+
+Join us in advancing the field of molecular dynamics through innovative programming and collaborative development!
+
+
+
 ## Examples: 2D and 3D simulation of the Lennard-Jones Potential
 
 Compile and run two and three-dimensional simulations of the Lennard-Jones Potential (source codes available in the "modules" directory), a fundamental model used to describe interactions between particles in physics and chemistry. This simulations provide a dynamic and detailed visualization of how molecules interact through attractive and repulsive forces at varying distances.
@@ -115,26 +141,3 @@ These functions, when combined, create a comprehensive simulation of particle in
 
 [Watch the 3D Lennard-Jones Simulation on YouTube](https://youtu.be/Y6BNPL-ZChw?si=aWSa4FRqT2bbJ3EF)
 
-## Contribution
-
-Contributions are welcome! Whether you're looking to fix bugs, enhance the functionality, or propose new features, please feel free to fork this repository, make changes, and submit pull requests.
-
-## License
-
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-Special thanks to the foundational principles set by Dennis C. Rapaport's book, which has been instrumental in guiding this project's development.
-
-## References
-
-1. Rapaport DC. The Art of Molecular Dynamics Simulation. 2nd ed. Cambridge University Press; 2004.
-
-2. Smith KW. Cython: A Guide for Python Programmers 1st Edition, O'Really ISBN-13: 978-1491901557
-
-3. Zammataro L. The Lennard-Jones potential Why the art of molecular dynamics is so fascinating, and why I got so emotionally overwhelmed, (https://towardsdatascience.com/the-lennard-jones-potential-35b2bae9446c)
-
----
-
-Join us in advancing the field of molecular dynamics through innovative programming and collaborative development!
