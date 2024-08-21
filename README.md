@@ -136,10 +136,9 @@ Before you begin, ensure you have Python installed along with the following pack
 
 1. **Compile the Cython Code**:
 
-Each example consists of three files: an example.pyx file containing the Cython code (module), an example.py file with the module calls and the main function, and a setup file in Python.
-In the case of the 3D Lennard-Jones Potential simulation, the files will be: cymol_3DLJP_02_1_3.pyx, cymol_3DLJP_02_1_3.py, and setup_cymol_3DLJP_02_1_3.py.
+The 3D Lennard-Jones Potential simulation, for example, consists of three files: a cymol_3DLJP_02_1_3.pyx file containing the Cython code (module), a cymol_3DLJP_02_1_3.py file with the module calls and the main function, and a setup file in Python named setup_cymol_3DLJP_02_1_3.py."
    
-   - Download the necessary files (example.pyx, example.py, and setup_example.py)
+   - Download the necessary files (.pyx, .py, and setup.py)
    - Navigate to the directory containing your files.
    - Run the setup script to compile the `.pyx` file into a C extension. Use the following command:
      ```bash
