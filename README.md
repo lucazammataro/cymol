@@ -54,6 +54,8 @@ The simulations of the Lennard-Jones Potential, both in 2D and 3D, are built upo
 2. **Force Calculation Function (`compute_forces`)**:
    - This core function computes the forces acting on each particle due to interactions with all other particles in the system. 
    - It uses the Lennard-Jones potential, defined as:
+  
+     $$
      \[
      V(r) = 4\epsilon \left[ \left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^6 \right]
      \]
@@ -62,6 +64,8 @@ The simulations of the Lennard-Jones Potential, both in 2D and 3D, are built upo
      \[
      F(r) = -\nabla V(r)
      \]
+     $$
+     
    - In both 2D and 3D simulations, the function loops over all pairs of particles, calculates the distance \(r\), and then computes the corresponding force components, updating each particle's force vector accordingly.
 
 3. **Leapfrog Integration Step Algorithm (`leapfrog_step`)**:
