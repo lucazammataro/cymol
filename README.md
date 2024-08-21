@@ -43,7 +43,7 @@ Compile and run two and three-dimensional simulations of the Lennard-Jones Poten
 Watch the video to explore how the Lennard-Jones Potential manifests in a 3D environment, with particles attracting and repelling each other, illustrating the dynamics that drive molecular behavior.
 
 
-```markdown
+
 ### Detailed Description of Functions in 2D and 3D Lennard-Jones Potential Simulations
 
 The simulations of the Lennard-Jones Potential, both in 2D and 3D, are built upon the principles of classical mechanics and use Newton's equations of motion to model the interactions between particles. Below is a detailed explanation of the primary functions used in these simulations:
@@ -109,7 +109,7 @@ The simulations of the Lennard-Jones Potential, both in 2D and 3D, are built upo
 - Boundary conditions are applied to simulate an infinite system, and energy calculations ensure the conservation of energy throughout the simulation.
 
 These functions, when combined, create a comprehensive simulation of particle interactions under the Lennard-Jones potential, allowing for detailed studies of molecular dynamics in both two and three dimensions.
-```
+
 
 [Watch the 2D Lennard-Jones Simulation on YouTube](https://youtu.be/mai3VEOZH0c)
 
