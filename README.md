@@ -12,6 +12,7 @@ Developed by Luca Zammataro, Copyright (C) 2024
 
 
 Cymol is an educational and research-oriented project designed to explore classical molecular dynamics using modern programming paradigms. Inspired by Dennis C. Rapaport's seminal textbook, "The Art of Molecular Dynamics," this project implements some examples from the book. Named "Cymol" to reflect its use of Cython, this project aims to demonstrate how Cython can produce efficient, stable, and surprisingly fast code. Join us as we step-by-step uncover the impressive capabilities of Cython in molecular dynamics simulations.
+Cymol is an ongoing project, still under development, with the goal of providing a powerful tool for molecular dynamics simulations.
 
 ## Project Goals
 
@@ -38,6 +39,8 @@ To get involved with Cymol or try out the simulations:
 
 ## Examples
 
+Compile and run a three-dimensional simulation of the Lennard-Jones Potential, a fundamental model used to describe interactions between particles in physics and chemistry. This simulation provides a dynamic and detailed visualization of how molecules interact through attractive and repulsive forces at varying distances.
+Watch the video to explore how the Lennard-Jones Potential manifests in a 3D environment, with particles attracting and repelling each other, illustrating the dynamics that drive molecular behavior.
 
 [Watch the video on YouTube](https://youtu.be/Y6BNPL-ZChw?si=aWSa4FRqT2bbJ3EF)
 
