@@ -53,6 +53,81 @@ Join us in advancing the field of molecular dynamics through innovative programm
 
 ---
 
+
+## Installation Guide for Cymol
+
+### Prerequisites
+Before starting, ensure you have either Anaconda or Python installed on your system. This project can be set up using Conda or Python's built-in venv.
+
+### Creating a Virtual Environment
+
+#### Using Conda
+1. Open your Terminal or Anaconda Prompt.
+2. Create a new Conda environment:
+   ```bash
+   conda create -n cython_env python=3.8
+   ```
+
+3. Activate the environment:
+
+  ```bash
+  conda activate cython_env
+  ```
+
+#### Using Python venv
+1. Open your Terminal or Command Prompt.
+2. Navigate to the project directory.
+3. Create a virtual environment:
+
+  ```bash
+  python -m venv cython_env
+  ```
+
+4. Activate the environment:
+
+  ```bash
+  source cython_env/bin/activate
+  ```
+
+#### Installing Required Libraries
+
+Install all required Python libraries within the activated environment:
+
+  ```bash
+  pip install numpy pygame pandas matplotlib Cython
+  ```
+
+#### Verifying Installation
+Ensure all components are installed correctly:
+
+
+  ```python
+  # test_installation.py
+  try:
+      import numpy as np
+      from pygame.locals import *
+      import pandas as pd
+      from OpenGL.GL import *
+      from OpenGL.GLU import *
+      from OpenGL.GLUT import *
+      import matplotlib.pyplot as plt
+      print("All libraries are installed correctly.")
+  except ImportError as e:
+      print("An error occurred:", e)
+  ```
+
+
+#### Run this test using:
+
+  ```bash
+  python test_installation.py
+  ```
+
+Adjust parameters within the `main.py` as needed to customize the simulation conditions.
+
+
+---
+
 ## Practical Examples with Cymol: 2D and 3D Simulation of the Lennard-Jones Potential
 
 
