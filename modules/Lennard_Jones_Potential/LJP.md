@@ -1,4 +1,4 @@
-Title: Cymol Lennard Jones Potential (2D Soft-disk fluid algorithm)
+Title: Cymol Lennard Jones Potential (2D Soft-disk and 3D-spheres fluid algorithm)
 
 Author: Luca Zammataro, Copyright (c) 2024
 
