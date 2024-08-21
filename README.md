@@ -42,8 +42,9 @@ To get involved with Cymol or try out the simulations:
 Compile and run two and three-dimensional simulations of the Lennard-Jones Potential (source codes available in the "modules" directory), a fundamental model used to describe interactions between particles in physics and chemistry. This simulations provide a dynamic and detailed visualization of how molecules interact through attractive and repulsive forces at varying distances.
 Watch the video to explore how the Lennard-Jones Potential manifests in a 3D environment, with particles attracting and repelling each other, illustrating the dynamics that drive molecular behavior.
 
-### Detailed Description of Functions in 2D and 3D Lennard-Jones Potential Simulations
 
+```markdown
+### Detailed Description of Functions in 2D and 3D Lennard-Jones Potential Simulations
 
 The simulations of the Lennard-Jones Potential, both in 2D and 3D, are built upon the principles of classical mechanics and use Newton's equations of motion to model the interactions between particles. Below is a detailed explanation of the primary functions used in these simulations:
 
@@ -55,45 +56,27 @@ The simulations of the Lennard-Jones Potential, both in 2D and 3D, are built upo
 2. **Force Calculation Function (`compute_forces`)**:
    - This core function computes the forces acting on each particle due to interactions with all other particles in the system. 
    - It uses the Lennard-Jones potential, defined as:
-  
-     $$
-     \[
-     V(r) = 4\epsilon \left[ \left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^6 \right]
-     \]
+     ![LJ Potential](https://latex.codecogs.com/png.latex?\dpi{110}\bg{transparent}\color{white}V(r)%3D4\epsilon%20\left[\left(\frac{\sigma}{r}\right)^{12}%20-%20\left(\frac{\sigma}{r}\right)^6\right])
      where \(r\) is the distance between two particles, \(\epsilon\) represents the depth of the potential well, and \(\sigma\) is the finite distance at which the inter-particle potential is zero.
    - The force between two particles is derived from the potential as:
-     \[
-     F(r) = -\nabla V(r)
-     \]
-     $$
-     
+     ![Force Equation](https://latex.codecogs.com/png.latex?\dpi{110}\bg{transparent}\color{white}F(r)%3D-\nabla%20V(r))
    - In both 2D and 3D simulations, the function loops over all pairs of particles, calculates the distance \(r\), and then computes the corresponding force components, updating each particle's force vector accordingly.
 
 3. **Leapfrog Integration Step Algorithm (`leapfrog_step`)**:
    - The Leapfrog algorithm is an alternative to the Velocity-Verlet method and is widely used in molecular dynamics simulations due to its simplicity and stability.
    - This algorithm updates velocities and positions in a staggered manner, effectively "leapfrogging" over each other:
-     \[
-     \mathbf{v}\left(t + \frac{\Delta t}{2}\right) = \mathbf{v}\left(t - \frac{\Delta t}{2}\right) + \mathbf{a}(t) \Delta t
-     \]
-     \[
-     \mathbf{r}(t + \Delta t) = \mathbf{r}(t) + \mathbf{v}\left(t + \frac{\Delta t}{2}\right) \Delta t
-     \]
+     ![Leapfrog Step 1](https://latex.codecogs.com/png.latex?\dpi{110}\bg{transparent}\color{white}\mathbf{v}\left(t%20+%20\frac{\Delta%20t}{2}\right)%20=%20\mathbf{v}\left(t%20-%20\frac{\Delta%20t}{2}\right)%20+%20\mathbf{a}(t)%20\Delta%20t)
+     ![Leapfrog Step 2](https://latex.codecogs.com/png.latex?\dpi{110}\bg{transparent}\color{white}\mathbf{r}(t%20+%20\Delta%20t)%20=%20\mathbf{r}(t)%20+%20\mathbf{v}\left(t%20+%20\frac{\Delta%20t}{2}\right)%20\Delta%20t)
    - Here, the velocity is updated at half-integer time steps, while the position is updated at integer time steps. This method is particularly useful for ensuring that energy is conserved over long simulation periods.
    - The `leapfrog_step` function updates the particle positions based on the current velocities and then updates the velocities using the newly calculated forces.
 
 4. **Integration Function (`integrate_motion`)**:
    - Depending on the implementation, this function could utilize the Leapfrog integration step or the Velocity-Verlet method to update the positions and velocities of the particles.
    - Both methods are rooted in Newton's second law, where the acceleration of each particle is calculated from the forces acting on it:
-     \[
-     \mathbf{a} = \frac{\mathbf{F}}{m}
-     \]
+     ![Newton's Second Law](https://latex.codecogs.com/png.latex?\dpi{110}\bg{transparent}\color{white}\mathbf{a}%20=%20\frac{\mathbf{F}}{m})
    - In the case of the Velocity-Verlet algorithm, the equations of motion are integrated as follows:
-     \[
-     \mathbf{r}(t + \Delta t) = \mathbf{r}(t) + \mathbf{v}(t) \Delta t + \frac{1}{2} \mathbf{a}(t) \Delta t^2
-     \]
-     \[
-     \mathbf{v}(t + \Delta t) = \mathbf{v}(t) + \frac{1}{2} [\mathbf{a}(t) + \mathbf{a}(t + \Delta t)] \Delta t
-     \]
+     ![Velocity-Verlet 1](https://latex.codecogs.com/png.latex?\dpi{110}\bg{transparent}\color{white}\mathbf{r}(t%20+%20\Delta%20t)%20=%20\mathbf{r}(t)%20+%20\mathbf{v}(t)%20\Delta%20t%20+%20\frac{1}{2}%20\mathbf{a}(t)%20\Delta%20t^2)
+     ![Velocity-Verlet 2](https://latex.codecogs.com/png.latex?\dpi{110}\bg{transparent}\color{white}\mathbf{v}(t%20+%20\Delta%20t)%20=%20\mathbf{v}(t)%20+%20\frac{1}{2}%20[\mathbf{a}(t)%20+%20\mathbf{a}(t%20+%20\Delta%20t)]%20\Delta%20t)
    - The `integrate_motion` function updates the positions and velocities of all particles for each time step in the simulation.
 
 5. **Boundary Condition Function (`apply_boundary_conditions`)**:
@@ -104,13 +87,9 @@ The simulations of the Lennard-Jones Potential, both in 2D and 3D, are built upo
 6. **Energy Calculation Function (`compute_energy`)**:
    - This function calculates the total energy of the system, which is the sum of kinetic and potential energies.
    - The kinetic energy is computed as:
-     \[
-     E_k = \frac{1}{2} \sum_{i=1}^{N} m_i v_i^2
-     \]
+     ![Kinetic Energy](https://latex.codecogs.com/png.latex?\dpi{110}\bg{transparent}\color{white}E_k%20=%20\frac{1}{2}%20\sum_{i=1}^{N}%20m_i%20v_i^2)
    - The potential energy is the sum of all pairwise Lennard-Jones potentials:
-     \[
-     E_p = \sum_{i<j} V(r_{ij})
-     \]
+     ![Potential Energy](https://latex.codecogs.com/png.latex?\dpi{110}\bg{transparent}\color{white}E_p%20=%20\sum_{i<j}%20V(r_{ij}))
    - This function helps in monitoring the conservation of energy during the simulation, an essential check for the accuracy of the simulation.
 
 7. **Visualization and Rendering Functions (`render_particles`, `update_display`)**:
@@ -130,9 +109,7 @@ The simulations of the Lennard-Jones Potential, both in 2D and 3D, are built upo
 - Boundary conditions are applied to simulate an infinite system, and energy calculations ensure the conservation of energy throughout the simulation.
 
 These functions, when combined, create a comprehensive simulation of particle interactions under the Lennard-Jones potential, allowing for detailed studies of molecular dynamics in both two and three dimensions.
-
-
-
+```
 
 [Watch the 2D Lennard-Jones Simulation on YouTube](https://youtu.be/mai3VEOZH0c)
 
