@@ -95,20 +95,20 @@ Install all required Python libraries within the activated environment:
 
 #### Verifying Installation
 Ensure all components are installed correctly:
-    ```python
-    # test_installation.py
-    try:
-        import numpy as np
-        from pygame.locals import *
-        import pandas as pd
-        from OpenGL.GL import *
-        from OpenGL.GLU import *
-        from OpenGL.GLUT import *
-        import matplotlib.pyplot as plt
-        print("All libraries are installed correctly.")
-    except ImportError as e:
-        print("An error occurred:", e)
-    ```
+  ```python
+  # test_installation.py
+  try:
+      import numpy as np
+      from pygame.locals import *
+      import pandas as pd
+      from OpenGL.GL import *
+      from OpenGL.GLU import *
+      from OpenGL.GLUT import *
+      import matplotlib.pyplot as plt
+      print("All libraries are installed correctly.")
+  except ImportError as e:
+      print("An error occurred:", e)
+  ```
 
 
 #### Run this test using:
