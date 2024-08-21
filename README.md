@@ -35,6 +35,12 @@ To get involved with Cymol or try out the simulations:
 2. Ensure you have Python and Cython installed.
 3. Follow the setup instructions in our documentation to start running your own simulations.
 
+
+## Examples
+
+
+[Watch the video on YouTube](https://youtu.be/Y6BNPL-ZChw?si=aWSa4FRqT2bbJ3EF)
+
 ## Contribution
 
 Contributions are welcome! Whether you're looking to fix bugs, enhance the functionality, or propose new features, please feel free to fork this repository, make changes, and submit pull requests.
