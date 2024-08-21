@@ -135,6 +135,7 @@ Before you begin, ensure you have Python installed along with the following pack
 ### Compilation Steps
 
 1. **Compile the Cython Code**:
+   - Download the necessary files (example.pyx, example.py, and setup_example.py)
    - Navigate to the directory containing your files.
    - Run the setup script to compile the `.pyx` file into a C extension. Use the following command:
      ```bash
@@ -142,7 +143,7 @@ Before you begin, ensure you have Python installed along with the following pack
      ```
    - This command will generate a `.so` file (on Linux/Mac) or a `.pyd` file (on Windows) in the same directory, which is the compiled module that can be imported in Python.
 
-2. **Verify Compilation**:
+3. **Verify Compilation**:
    - Ensure that the compilation has produced the necessary binary file without errors.
 
 ### Running the Simulation
