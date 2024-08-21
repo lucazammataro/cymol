@@ -62,7 +62,7 @@ Join us in advancing the field of molecular dynamics through innovative programm
 
 ---
 
-## Examples: 2D and 3D Simulation of the Lennard-Jones Potential
+## Practical Examples with Cymol: 2D and 3D Simulation of the Lennard-Jones Potential
 
 Compile and run two and three-dimensional simulations of the Lennard-Jones Potential (source codes available in the "modules" directory), a fundamental model used to describe interactions between particles in physics and chemistry. This simulations provide a dynamic and detailed visualization of how molecules interact through attractive and repulsive forces at varying distances.
 Watch the video to explore how the Lennard-Jones Potential manifests in a 3D environment, with particles attracting and repelling each other, illustrating the dynamics that drive molecular behavior.
