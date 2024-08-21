@@ -187,25 +187,25 @@ The 3D Lennard-Jones Potential simulation, for example, consists of three files:
   ```
   
   
-    1. **`deltaT = 0.005`**:
-       - **Description**: This parameter represents the time step used in the simulation. It controls the increment of time in each iteration of the simulation loop. A smaller `deltaT` provides more accurate results but requires more computational steps.
-    
-    2. **`density = 0.01`**:
-       - **Description**: This parameter defines the particle density in the simulation space. It is the ratio of the number of particles to the volume of the simulation box. A lower density implies fewer particles in a given volume, while a higher density indicates more crowded conditions.
-    
-    3. **`initUcell_x = 10`, `initUcell_y = 10`, `initUcell_z = 10`**:
-       - **Description**: These parameters specify the initial number of unit cells (lattice points) along the x, y, and z dimensions of the simulation box. This determines the initial arrangement of particles in a 3D grid structure.
-    
-    4. **`stepAvg = 1`**:
-       - **Description**: This parameter indicates how frequently (in terms of simulation steps) the simulation averages or records certain quantities like energy or temperature. A value of `1` means that these values are averaged or recorded every single step.
-    
-    5. **`stepLimit = 10000`**:
-       - **Description**: This parameter sets the maximum number of simulation steps to be executed. It defines the total duration of the simulation, with more steps allowing for a longer simulation time.
-    
-    6. **`temperature = 1.0`**:
-       - **Description**: This parameter defines the initial temperature of the system, influencing the initial velocities of the particles. A higher temperature corresponds to higher kinetic energy and faster-moving particles.
-    
-    These parameters collectively control the dynamics, scale, and duration of the Lennard-Jones Potential simulation, allowing you to customize the conditions under which the particles interact.
+  1. **`deltaT = 0.005`**:
+     - **Description**: This parameter represents the time step used in the simulation. It controls the increment of time in each iteration of the simulation loop. A smaller `deltaT` provides more accurate results but requires more computational steps.
+  
+  2. **`density = 0.01`**:
+     - **Description**: This parameter defines the particle density in the simulation space. It is the ratio of the number of particles to the volume of the simulation box. A lower density implies fewer particles in a given volume, while a higher density indicates more crowded conditions.
+  
+  3. **`initUcell_x = 10`, `initUcell_y = 10`, `initUcell_z = 10`**:
+     - **Description**: These parameters specify the initial number of unit cells (lattice points) along the x, y, and z dimensions of the simulation box. This determines the initial arrangement of particles in a 3D grid structure.
+  
+  4. **`stepAvg = 1`**:
+     - **Description**: This parameter indicates how frequently (in terms of simulation steps) the simulation averages or records certain quantities like energy or temperature. A value of `1` means that these values are averaged or recorded every single step.
+  
+  5. **`stepLimit = 10000`**:
+     - **Description**: This parameter sets the maximum number of simulation steps to be executed. It defines the total duration of the simulation, with more steps allowing for a longer simulation time.
+  
+  6. **`temperature = 1.0`**:
+     - **Description**: This parameter defines the initial temperature of the system, influencing the initial velocities of the particles. A higher temperature corresponds to higher kinetic energy and faster-moving particles.
+  
+  These parameters collectively control the dynamics, scale, and duration of the Lennard-Jones Potential simulation, allowing you to customize the conditions under which the particles interact.
 
    - Execute the script by running:
      ```bash
