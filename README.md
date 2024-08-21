@@ -1,6 +1,8 @@
 <img src="/images/cymol_main.JPG" alt="logo" style="display:block; margin:auto;">
-[![Watch the video](https://youtu.be/Y6BNPL-ZChw?si=aWSa4FRqT2bbJ3EF/0.jpg)](https://youtu.be/Y6BNPL-ZChw?si=aWSa4FRqT2bbJ3EF)
 
+<p align="center">
+  <img src="images/3DLJP.gif" alt="Demo">
+</p>
 
 # Cymol
 A Research and Educational Project on Classical Molecular Dynamics
