@@ -46,13 +46,15 @@ Before starting, ensure you have either Anaconda or Python installed on your sys
 2. Create a new Conda environment:
   ```bash
   conda create -n cython_env
-  conda activate cython_env
-  conda install -c conda-forge numpy pandas pygame matplotlib pyopengl
   ```
 
-3. Activate the environment:
+3. Activate the Environment:
   ```bash
   conda activate cython_env
+  ```
+4. Installing Required Libraries:
+  ```bash
+  conda install -c conda-forge numpy pandas pygame matplotlib pyopengl
   ```
 
 #### Using Python venv
@@ -68,9 +70,7 @@ Before starting, ensure you have either Anaconda or Python installed on your sys
   source cython_env/bin/activate
   ```
 
-#### Installing Required Libraries
-
-Install all required Python libraries within the activated environment:
+5. Installing Required Libraries
   ```bash
   pip install numpy pygame pandas matplotlib Cython
   ```
