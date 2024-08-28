@@ -41,11 +41,13 @@ Before starting, ensure you have either Anaconda or Python installed on your sys
 
 ### Creating a Virtual Environment
 
-#### Using Conda
+#### Using Conda (suggested)
 1. Open your Terminal or Anaconda Prompt.
 2. Create a new Conda environment:
   ```bash
-  conda create -n cython_env python=3.8
+  conda create -n cython_env
+  conda activate cython_env
+  conda install -c conda-forge numpy pandas pygame matplotlib pyopengl
   ```
 
 3. Activate the environment:
