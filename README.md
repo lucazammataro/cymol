@@ -55,6 +55,7 @@ Before starting, ensure you have either Anaconda or Python installed on your sys
 4. Installing Required Libraries:
   ```bash
   conda install -c conda-forge numpy pandas pygame matplotlib pyopengl
+  conda install cython
   ```
 
 #### Using Python venv
